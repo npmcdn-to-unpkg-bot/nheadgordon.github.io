@@ -1,0 +1,67 @@
+.container {
+	width: 720px;
+	padding: 54px;
+	font-family: "Lato";
+}
+
+.header h1 {
+	color: #DD0000;
+    font-family: "Lato";
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.header h2 {
+	color: #000000;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 24px;
+	margin: 0px;
+}
+
+ul {
+	padding: 0px;
+}
+
+.header li {
+	text-decoration: underline;
+	display: inline;
+	color: #cccccc;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.article h1 {
+	color: #cccccc;
+    font-family: "Lato";
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.article h2 {
+	color: #000000;
+    font-family: "Lato";
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.article p {
+	font-size: 14px;
+}
+
+.footer li {
+	text-decoration: none;
+	display: inline;
+	color: #DD0000;
+	font-size: 14px;
+	padding-right: 5px;
+
+}
