@@ -1,7 +1,29 @@
-// 1. Use document.getElementById() and attach an .onclick event handler to #clickme
-// 2. Assign this event handler to a function named tellFortune
+// 1. Use document.getElementById() and attach an .onclick 
+//event handler to #clickme
+// 2. Assign this event handler to a function named 
+//tellFortune
 // 3. The function ellFortune should:
-// - A) store the values from the four inputs (#hometown, #partner, #favNum, #jobTitle) in variables
+// - A) store the values from the four inputs 
+//(#hometown, #partner, #favNum, #jobTitle) in variables
 // - B) concatenate these variables into the sentence:
-// - "You will be a " + jobTitle + " living in " + hometown + " married to " + partner + " with " + favNum + " kids."
+// - "You will be a " + jobTitle + " living in " + 
+//hometown + " married to " + partner + " with " + favNum + " kids."
 // - C) output this string to #output
+
+//document.getElementById('clickme').onclick = tellFortune;
+
+$('#clickme').click(tellFortune);
+
+function tellFortune() {
+	var hometown = $('#hometown').val();
+	var partner = $('#partner').val();
+	var favNum = $('#favNum').val();
+	var jobTitle = $('#jobTitle').val();
+
+	var outputStr = "You will be a " + jobTitle + " living in " + 
+hometown + " married to " + partner + " with " + favNum + " kids.";
+
+//document.getElementById('output').innerHTML = outputStr
+
+$('#output').html(outputStr);
+}
