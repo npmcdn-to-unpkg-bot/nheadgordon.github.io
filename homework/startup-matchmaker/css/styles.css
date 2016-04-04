@@ -66,7 +66,7 @@ header nav ul li a {
 }
 
 #main {
-	width: 1046px;
+	width: 100%;
 	background: url('../img/coworking.jpg');
 	overflow: auto;
 }
@@ -103,7 +103,7 @@ button {
 /*******************************************/
 
 #articles {
-	width: 1064px;
+	width: 100%;
 	margin: 20px 20px;
 	margin-bottom: 20px;
 }
@@ -121,7 +121,7 @@ button {
 }
 
 article {
-	width: 330px;
+	width: 30%;
 	height: 200px;
 	background-color: #fff;
 	float: left;
@@ -133,7 +133,7 @@ article {
 footer {
 	background-color: #000000;
 	height: 25px;
-	width: 1046px;
+	width: 100%;
 	padding: 10px 10px;
 	margin: 0;
 	overflow: hidden;
