@@ -13,7 +13,7 @@
 .astro-content-container {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -75,8 +75,10 @@
 	display: block;
 	text-align: left;
 	vertical-align: middle;
-	margin: 10%;
-	padding: 0;
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 50px;
 }
 
 .icons {
@@ -99,13 +101,27 @@
     vertical-align: center;
 }
 
+#section-header {
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+	z-index: 4;
+
+}
+
 .row {
 	margin: 0;
 	padding: 0;
 }
 
 .col-sm-4 {
-	padding-top: 3%;
+	padding-bottom: 5px;
+}
+
+#arrow {
+	text-align: center;
+	width: 50px;
+	height: 50px;
 }
 
 #burger {
@@ -140,6 +156,16 @@ h2 {
 	position: relative;
 	color: #000000;
 }
+
+h3 {
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #000000;
+	text-align: center;
+}
+
 
 p {
 	font-family:'EB Garamond', serif;
@@ -194,7 +220,21 @@ img {
 
 	h2 {
 		font-size: 30px;
+		text-align: center;
 	}
+
+	p {
+		text-align: center;
+	}
+
+	#section-header {
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	z-index: 4;
+
+}
 
 	.astro-index {
 		display: none;
