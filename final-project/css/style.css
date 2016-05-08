@@ -175,10 +175,10 @@ p {
 	color: #000000;
 }
 
-
-img {
+.famous-image {
 	width: 100%;
 }
+
 
 @media (max-width: 768px) {
 
