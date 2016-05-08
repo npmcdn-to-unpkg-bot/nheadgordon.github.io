@@ -1,13 +1,4 @@
-h1 {
-	font-family:'EB Garamond', serif;
-	font-weight: 300;
-	font-size: 80px;
-	position: relative
-
-
-}
-
-.container {
+.astro-container {
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -15,7 +6,43 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center center;
 	overflow: hidden;
+	z-index: 1;
+}
 
+
+.astro-content-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.astro-celeb-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.astro-compatibility-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	z-index: 1;
 }
 
 .vertical-center {
@@ -35,11 +62,169 @@ h1 {
 }
 
 .astro-sign {
-	display: block;
+	display: table;
 	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-right: 110px;
+	z-index: 3;
+}
+
+
+.astro-detail {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	margin: 10%;
+	padding: 0;
+}
+
+.icons {
+	display: block;
+	height: 40px;
+    margin-top: 10px;
+    opacity: 1;
+    width: 40px;
+    text-align: center;
+}
+
+.astro-index {
+	display: table;
+	z-index: 2;
+	margin: 0;
+    padding-left: 10px;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: center;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.col-sm-4 {
+	padding-top: 3%;
+}
+
+#burger {
+	display: none;
+}
+
+#x-out {
+	display: none;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+
+h1 {
+	font-family:'EB Garamond', serif;
+	font-weight: 300;
+	font-size: 120px;
+	position: relative;
 	color: #fff;
 }
 
-.container {
-	z-index: 1;
+h2 {
+	font-family:'EB Garamond', italic, serif;
+	font-weight: 300;
+	font-size: 45px;
+	position: relative;
+	color: #000000;
+}
+
+p {
+	font-family:'EB Garamond', serif;
+	font-weight: 300;
+	font-size: 20px;
+	position: relative;
+	color: #000000;
+}
+
+
+img {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+
+	.astro-container {
+		width: 100%;
+		background-size: cover;
+	}
+
+	.astro-content-container {
+		height: 100%;
+	}
+
+	.astro-celeb-container {
+		height: 100%;
+	}
+
+	.astro-compatibility-container {
+		height: 100%;
+	}
+
+	#vertical-align-index {
+		border: none;
+
+	}
+
+	.astro-sign {
+		display: table;
+		text-align: center;
+		vertical-align: middle;
+		margin: 0 auto;
+		padding-right: 0px;
+		padding-bottom: 120px;
+		z-index: 3;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.astro-index {
+		display: none;
+	}
+
+	#burger {
+		display: block;
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		width: 50px;
+	}
+
+	#x-out {
+		float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 40px;
+	}
+
+	#mobile-nav {
+		display: none;
+		width: 100%;
+		height: 100%;
+		float: left;
+	}
+
+	.icons {
+		height: 70px;
+		width: 70px;
+		margin-top: 30px;
+	}
 }
