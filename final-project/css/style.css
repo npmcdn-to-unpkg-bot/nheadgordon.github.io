@@ -101,11 +101,17 @@
     vertical-align: center;
 }
 
-#section-header {
+.section-header {
 	display: block;
 	margin: 0 auto;
 	padding-top: 50px;
 	z-index: 4;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #000000;
+	text-align: center;
 
 }
 
