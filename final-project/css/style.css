@@ -132,10 +132,19 @@
 
 #burger {
 	display: none;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 50px;
 }
+
 
 #x-out {
 	display: none;
+	float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 40px;
 }
 
 #mobile-nav {
@@ -186,7 +195,7 @@ p {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px){
 
 	.astro-container {
 		width: 100%;
@@ -272,5 +281,20 @@ p {
 		height: 70px;
 		width: 70px;
 		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	
+	#burger {
+		display: none;
+	}
+
+	#x-out {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: none;
 	}
 }

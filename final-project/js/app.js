@@ -23,6 +23,117 @@ $(document).ready(function () {
         $('.astro-sign').show();
     });
 
+        // hover states
+
+
+    $("#aries-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/aries-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/aries.svg';
+  }
+});
+
+    $("#aquarius-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/aquarius-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/aquarius.svg';
+  }
+});
+
+    $("#cancer-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/cancer-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/cancer.svg';
+  }
+});
+
+    $("#capricorn-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/capricorn-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/capricorn.svg';
+  }
+});
+
+    $("#gemini-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/gemini-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/gemini.svg';
+  }
+});
+
+    $("#leo-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/leo-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/leo.svg';
+  }
+});
+
+    $("#libra-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/libra-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/libra.svg';
+  }
+});
+
+    $("#pisces-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/pisces-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/pisces.svg';
+  }
+});
+
+    $("#sagittarius-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/sagittarius-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/sagittarius.svg';
+  }
+});
+
+    $("#scorpio-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/scorpio-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/scorpio.svg';
+  }
+});
+
+    $("#taurus-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/taurus-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/taurus.svg';
+  }
+});
+
+    $("#virgo-icon").on({
+ "mouseover" : function() {
+    this.src = 'images/virgo-hover.svg';
+  },
+  "mouseout" : function() {
+    this.src='images/virgo.svg';
+  }
+});
+
 var elementPosition = $('#vertical-align-index').offset();
 
 
