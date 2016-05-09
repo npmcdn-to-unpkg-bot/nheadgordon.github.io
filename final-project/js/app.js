@@ -1,8 +1,18 @@
 $(document).ready(function () {
     // console.logs the window.width
+    var isMobile = $(window).width() < 767;
+
+
     $(window).resize(function () {
-        console.log($(window).width());
-    })
+        isMobile = $(window).width() < 767;
+        if (!isMobile) {
+          $('#burger').hide();
+          $('#mobile-nav').hide();
+          $('#x-out').hide();
+          return;
+        } 
+        $('#burger').show();
+    });
 
     $('#burger').click(function () {
         $('#mobile-nav').show();
