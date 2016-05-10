@@ -147,7 +147,7 @@ $(document).ready(function () {
 var elementPosition = $('#vertical-align-index').offset();
 
 $('.arrow').click(function() {
-   $.scrollTo($('.astro-content-container'), 1000);
+   $.scrollTo($('.astro-content-container'), 500);
 });
 
     // console.logs the window.width
